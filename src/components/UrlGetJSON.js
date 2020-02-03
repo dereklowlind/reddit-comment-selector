@@ -18,13 +18,13 @@ class UrlGetJSON extends React.Component {
     }
 
     getRedditApi() {
-      const url = 'http://127.0.0.1:5000/getdatajson';
-      // const url = 'https://us-central1-pythonvideomaker.cloudfunctions.net/call-reddit-python';
+      //const url = 'http://127.0.0.1:5000/getdatajson';
+      const url = 'https://us-central1-pythonvideomaker.cloudfunctions.net/call-reddit-python';
     
         // alert(this.state.value);
         return fetch(url, {
                 method: 'POST',
-                //mode: 'no-cors',
+                mode: 'cors',
                 headers: {
                     Accept: 'application/json',
                     'Content-Type': 'application/json',

@@ -81,7 +81,7 @@ class MainContainer extends React.Component{
                       <img src={downarrow} className="votearrow"/>
                   </div>
                   <div>
-                    <a >{json.submissionData.score}</a>
+                    {/* <a >{json.submissionData.score}</a> */}
                     <a className="subAuthorstyle">Posted by u/{json.submissionData.author}</a>
                     <p className="subTitlestyle"> {json.submissionData.title} </p>
                     {/* <p className="paragraphstyle"> {json.submissionData.body} </p> */}
