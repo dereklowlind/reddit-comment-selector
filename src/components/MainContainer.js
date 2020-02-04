@@ -30,7 +30,7 @@ class MainContainer extends React.Component{
               <div>
                 {/* <UrlJS parentCallback = {this.callbackFunction}/> */}
                 <UrlGetJSON parentCallback = {this.callbackFunction}/>
-                <FileSelector parentCallback = {this.callbackFunction}/>
+                {/* <FileSelector parentCallback = {this.callbackFunction}/> */}
                 <div>no JSON loaded</div>
               </div>
             ) 
@@ -72,7 +72,7 @@ class MainContainer extends React.Component{
             <div>
                 {/* <UrlJS parentCallback = {this.callbackFunction}/> */}
                 <UrlGetJSON parentCallback = {this.callbackFunction}/>
-                <FileSelector parentCallback = {this.callbackFunction}/>
+                {/* <FileSelector parentCallback = {this.callbackFunction}/> */}
                 <FileDownloader data={this.state.data}/>
                 <div className="flex-container">
                   <div className="arrows-and-line"> 
